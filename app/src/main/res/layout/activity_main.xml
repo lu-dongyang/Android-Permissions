@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2"
+        android:gravity="center">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/getduanxin"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#e2a617"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="获取短信" />
+
+            <Button
+                android:id="@+id/gettongxunlu"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#0d637f"
+                android:text="获取通讯录"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <!--        <TextView-->
+            <!--            android:layout_width="100dp"-->
+            <!--            android:layout_height="100dp"-->
+            <!--            android:layout_margin="5dp"-->
+            <!--            android:background="#aa2266"-->
+            <!--            android:text="文件管理"-->
+            <!--            android:gravity="center"/>-->
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/getgps"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#45e15f"
+                android:text="获取GPS"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/getwifi_bt"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#3924a4"
+                android:text="获取wifi"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <!--            android:layout_span="2"/>-->
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/getyingyong"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#e2a617"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="获取应用列表" />
+
+            <Button
+                android:id="@+id/gettonghuajilu"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#0d637f"
+                android:text="获取通话记录"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <!--        <TextView-->
+            <!--            android:layout_width="100dp"-->
+            <!--            android:layout_height="100dp"-->
+            <!--            android:layout_margin="5dp"-->
+            <!--            android:background="#aa2266"-->
+            <!--            android:text="文件管理"-->
+            <!--            android:gravity="center"/>-->
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+
+
